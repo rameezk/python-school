@@ -49,7 +49,7 @@ class Freelancer:
     def calculate_pay(self) -> float:
         pay = (
             self.hourly_rate * self.hours_worked
-            + self.contracts_landed * self.contracts_landed
+            + self.contracts_landed * self.commission
         )
         return pay
 
