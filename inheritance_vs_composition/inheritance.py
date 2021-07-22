@@ -1,8 +1,7 @@
 """Super advanced employee system using inheritance"""
 
-import abc
-from dataclasses import dataclass
 from abc import ABC, abstractmethod
+from dataclasses import dataclass
 
 
 @dataclass
